@@ -21,17 +21,17 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/rakesh.kushwaha@india.nec.com/sdk'
+  s.homepage         = 'https://github.com/degpegios/sdk'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'rakesh.kushwaha@india.nec.com' => 'rakesh.kushwaha@india.nec.com' }
-  s.source           = { :git => 'https://github.com/rakesh.kushwaha@india.nec.com/sdk.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/degpegios/sdk.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'sdk/Classes/**/*'
-  
+  s.source_files = 'Source/**/*.swift'
+  s.swift_version = '5.0'
   # s.resource_bundles = {
   #   'sdk' => ['sdk/Assets/*.png']
   # }
